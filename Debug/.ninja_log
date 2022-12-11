@@ -1,0 +1,66 @@
+# ninja log v5
+711	1120	6924768389974746	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
+363	814	6924769296268709	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/lcd.o	ac35242b694886b9
+0	206	6924769698473245	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	4e3a65f5a650e5fc
+2	825	6924791443570092	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/lcd.o	ac35242b694886b9
+388	831	6924791443792692	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
+836	956	6924791445123747	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	4e3a65f5a650e5fc
+378	787	6924825361101252	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
+2	744	6924826340457852	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
+1	750	6924826442717545	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
+2	423	6924827010267635	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/Keypad.o	25202411ab95d41e
+427	563	6924827011682579	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	ea60c9436ddaf509
+2	407	6924831050990493	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
+411	544	6924831052364056	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	ea60c9436ddaf509
+1	442	6924831678533898	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
+446	592	6924831680013972	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	ea60c9436ddaf509
+2	433	6924832241626216	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
+440	587	6924832243167444	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	ea60c9436ddaf509
+2	508	6924832399478945	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
+512	663	6924832401046644	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	ea60c9436ddaf509
+2	433	6924832758602046	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
+437	578	6924832760060952	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	ea60c9436ddaf509
+3	625	6924833060260529	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
+637	829	6924833062384433	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	ea60c9436ddaf509
+2	474	6924833609022308	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
+479	631	6924833610587802	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	ea60c9436ddaf509
+2	463	6924834301724130	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/Keypad.o	25202411ab95d41e
+467	614	6924834303241492	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	ea60c9436ddaf509
+1	436	6924834873294954	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
+439	585	6924834874799671	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	ea60c9436ddaf509
+2	573	6924835734578383	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
+578	723	6924835736100777	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	ea60c9436ddaf509
+2	476	6924836290744369	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
+483	700	6924836292908579	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	ea60c9436ddaf509
+1	835	6924838603346424	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/Keypad.o	25202411ab95d41e
+370	872	6924838603705141	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
+876	1041	6924838605411360	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	ea60c9436ddaf509
+3	512	6924839117040262	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/Keypad.o	25202411ab95d41e
+518	681	6924839118758983	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	ea60c9436ddaf509
+2	502	6924840442184841	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/Keypad.o	25202411ab95d41e
+507	653	6924840443683571	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	ea60c9436ddaf509
+2	500	6924844785198822	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/Keypad.o	25202411ab95d41e
+506	675	6924844786930415	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	ea60c9436ddaf509
+1	508	6924854974611954	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
+515	671	6924854976275512	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	ea60c9436ddaf509
+2	451	6924856092881866	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/Keypad.o	25202411ab95d41e
+456	624	6924856094614222	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	ea60c9436ddaf509
+2	452	6924856391691217	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/Keypad.o	25202411ab95d41e
+457	624	6924856393407447	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	ea60c9436ddaf509
+2	499	6924856726127477	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
+506	672	6924856727864480	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	ea60c9436ddaf509
+2	470	6924857112222606	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
+476	644	6924857113964321	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	ea60c9436ddaf509
+1	431	6924857306424709	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
+435	564	6924857307741190	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	ea60c9436ddaf509
+1	414	6924862488980327	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
+418	558	6924862490419371	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	ea60c9436ddaf509
+1	778	6924864503711875	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/Keypad.o	25202411ab95d41e
+378	799	6924864503931275	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
+803	948	6924864505418112	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	ea60c9436ddaf509
+2	449	6924864963860274	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/Keypad.o	25202411ab95d41e
+454	594	6924864965320373	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	ea60c9436ddaf509
+2	450	6924866030527413	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/Keypad.o	25202411ab95d41e
+455	608	6924866032112561	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	ea60c9436ddaf509
+1	433	6924866223673109	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/Keypad.o	25202411ab95d41e
+437	580	6924866225150531	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	ea60c9436ddaf509

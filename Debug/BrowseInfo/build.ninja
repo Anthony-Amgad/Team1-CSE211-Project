@@ -1,0 +1,61 @@
+##IAR Ninja build file
+
+
+#Rules
+rule COMPILER_XCL
+  command = "D$:\Programs\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\XclFileGenerator.exe" $xclcommand -f "$rspfile_name"
+  description = IAR_NEW_TOOL+++COMPILER_XCL+++$in+++"D$:\Programs\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\XclFileGenerator.exe" $flags
+  rspfile = $rspfile_name
+  rspfile_content = $flags
+
+rule INDEXER
+  command = "D$:\Programs\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\SourceIndexer.exe" $flags
+  depfile = $out.dep
+  description = IAR_NEW_TOOL+++INDEXER+++$out+++"D$:\Programs\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\SourceIndexer.exe" $flags
+
+rule MAKEBROWSE
+  command = "D$:\Programs\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\makeBrowseData.exe" $flags
+  description = IAR_NEW_TOOL+++MAKEBROWSE+++$out+++"D$:\Programs\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\makeBrowseData.exe" $flags
+
+rule PDBLINK
+  command = "D$:\Programs\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\PbdLink.exe" $flags
+  description = IAR_NEW_TOOL+++PDBLINK+++$out+++"D$:\Programs\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\PbdLink.exe" $flags
+
+
+
+#Build steps
+build D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Keypad.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Keypad.c" -xcl_file "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Keypad.xcl" -macro_file "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Keypad.tmp" -icc_path "D$:\Programs\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Keypad.c" -D ewarm -D PART_TM4C123GH6PM -D TARGET_IS_TM4C123_RB1 -o "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "D$:\Programs\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -I "D$:\UNI\Semester$ 7\Embedded\tivaware_c_series_2_1_4_178__win\tivaware_c_series_2_1_4_178\\" -Ol --predef_macros "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Keypad.tmp"
+  rspfile_name = D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Keypad.xcl.rsp
+
+build D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\lcd.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\lcd.c" -xcl_file "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\lcd.xcl" -macro_file "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\lcd.tmp" -icc_path "D$:\Programs\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\lcd.c" -D ewarm -D PART_TM4C123GH6PM -D TARGET_IS_TM4C123_RB1 -o "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "D$:\Programs\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -I "D$:\UNI\Semester$ 7\Embedded\tivaware_c_series_2_1_4_178__win\tivaware_c_series_2_1_4_178\\" -Ol --predef_macros "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\lcd.tmp"
+  rspfile_name = D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\lcd.xcl.rsp
+
+build D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\main.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\main.c" -xcl_file "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\main.xcl" -macro_file "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\main.tmp" -icc_path "D$:\Programs\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\main.c" -D ewarm -D PART_TM4C123GH6PM -D TARGET_IS_TM4C123_RB1 -o "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "D$:\Programs\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -I "D$:\UNI\Semester$ 7\Embedded\tivaware_c_series_2_1_4_178__win\tivaware_c_series_2_1_4_178\\" -Ol --predef_macros "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\main.tmp"
+  rspfile_name = D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\main.xcl.rsp
+
+build D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Keypad.pbi : INDEXER D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Keypad.xcl |  $
+D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Keypad.c
+  flags = "-out=D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Keypad.pbi" -f "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Keypad.xcl"
+
+build D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\lcd.pbi : INDEXER D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\lcd.xcl |  $
+D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\lcd.c
+  flags = "-out=D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\lcd.pbi" -f "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\lcd.xcl"
+
+build D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\main.pbi : INDEXER D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\main.xcl |  $
+D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\main.c
+  flags = "-out=D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\main.pbi" -f "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\main.xcl"
+
+build D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Team1$ CSE211$ Project.pbw : MAKEBROWSE D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Team1$ CSE211$ Project.pbd
+  flags = "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Team1$ CSE211$ Project.pbd" -output "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Team1$ CSE211$ Project.pbw"
+
+build D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Team1$ CSE211$ Project.pbd : PDBLINK D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Keypad.pbi |  $
+D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\lcd.pbi $
+D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\main.pbi
+  flags = -M "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Team1$ CSE211$ Project.pbd" "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Keypad.pbi" "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\lcd.pbi" "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\main.pbi"
+
