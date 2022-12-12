@@ -6,8 +6,9 @@
 #include "driverlib/gpio.h"
 #include "string.h"
 
-#define LCDPORT         GPIO_PORTB_BASE
-#define LCDPORTENABLE   SYSCTL_PERIPH_GPIOB
+#include "SysTimer.h"
+
+
 #define RS              GPIO_PIN_0
 #define E               GPIO_PIN_1
 #define D4              GPIO_PIN_4
@@ -17,71 +18,72 @@
 
 void LCD_Command(unsigned char c) {
 
-        GPIOPinWrite(LCDPORT, D4 | D5 | D6 | D7, (c & 0xf0) );
-        GPIOPinWrite(LCDPORT, RS, 0x00);
-        GPIOPinWrite(LCDPORT, E, 0x02);
+        GPIOPinWrite(GPIO_PORTB_BASE, D4 | D5 | D6 | D7, (c & 0xf0) );
+        GPIOPinWrite(GPIO_PORTB_BASE, RS, 0x00);
+        GPIOPinWrite(GPIO_PORTB_BASE, E, 0x02);
 
-        SysCtlDelay(50000);
+        SysTimerDelay(25000);
 
-        GPIOPinWrite(LCDPORT, E, 0x00);
+        GPIOPinWrite(GPIO_PORTB_BASE, E, 0x00);
 
-        SysCtlDelay(50000);
+        SysTimerDelay(25000);
 
-        GPIOPinWrite(LCDPORT, D4 | D5 | D6 | D7, (c & 0x0f) << 4 );
-        GPIOPinWrite(LCDPORT, RS, 0x00);
-        GPIOPinWrite(LCDPORT, E, 0x02);
+        GPIOPinWrite(GPIO_PORTB_BASE, D4 | D5 | D6 | D7, (c & 0x0f) << 4 );
+        GPIOPinWrite(GPIO_PORTB_BASE, RS, 0x00);
+        GPIOPinWrite(GPIO_PORTB_BASE, E, 0x02);
 
-        SysCtlDelay(10);
+        SysTimerDelay(10);
 
-        GPIOPinWrite(LCDPORT, E, 0x00);
+        GPIOPinWrite(GPIO_PORTB_BASE, E, 0x00);
 
-        SysCtlDelay(50000);
+        SysTimerDelay(25000);
 
 }
 
 void LCD_Clear(void){
 
         LCD_Command(0x01);
-        SysCtlDelay(10);
+        SysTimerDelay(10);
 
 }
 
 void LCD_init() {
+        SysTimerDelayinit();
+        SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOB);
+        while(!SysCtlPeripheralReady(SYSCTL_PERIPH_GPIOB));
+        GPIOPinTypeGPIOOutput(GPIO_PORTB_BASE, 0xFF);
 
-        SysCtlPeripheralEnable(LCDPORTENABLE);
-        GPIOPinTypeGPIOOutput(LCDPORT, 0xFF);
+        SysTimerDelay(25000);
 
-        SysCtlDelay(50000);
+        GPIOPinWrite(GPIO_PORTB_BASE, RS,  0x00 );
 
-        GPIOPinWrite(LCDPORT, RS,  0x00 );
+        GPIOPinWrite(GPIO_PORTB_BASE, D4 | D5 | D6 | D7,  0x30 );
+        GPIOPinWrite(GPIO_PORTB_BASE, E, 0x02);
+        SysTimerDelay(10);
+        GPIOPinWrite(GPIO_PORTB_BASE, E, 0x00);
 
-        GPIOPinWrite(LCDPORT, D4 | D5 | D6 | D7,  0x30 );
-        GPIOPinWrite(LCDPORT, E, 0x02);
-        SysCtlDelay(10);
-        GPIOPinWrite(LCDPORT, E, 0x00);
+        SysTimerDelay(25000);
 
-        SysCtlDelay(50000);
+        GPIOPinWrite(GPIO_PORTB_BASE, D4 | D5 | D6 | D7,  0x30 );
+        GPIOPinWrite(GPIO_PORTB_BASE, E, 0x02);
+        SysTimerDelay(10);
+        GPIOPinWrite(GPIO_PORTB_BASE, E, 0x00);
 
-        GPIOPinWrite(LCDPORT, D4 | D5 | D6 | D7,  0x30 );
-        GPIOPinWrite(LCDPORT, E, 0x02);
-        SysCtlDelay(10);
-        GPIOPinWrite(LCDPORT, E, 0x00);
+        SysTimerDelay(25000);
 
-        SysCtlDelay(50000);
+        GPIOPinWrite(GPIO_PORTB_BASE, D4 | D5 | D6 | D7,  0x30 );
+        GPIOPinWrite(GPIO_PORTB_BASE, E, 0x02);
+        SysTimerDelay(10);
+        GPIOPinWrite(GPIO_PORTB_BASE, E, 0x00);
 
-        GPIOPinWrite(LCDPORT, D4 | D5 | D6 | D7,  0x30 );
-        GPIOPinWrite(LCDPORT, E, 0x02);
-        SysCtlDelay(10);
-        GPIOPinWrite(LCDPORT, E, 0x00);
+        SysTimerDelay(25000);
 
-        SysCtlDelay(50000);
+        GPIOPinWrite(GPIO_PORTB_BASE, D4 | D5 | D6 | D7,  0x20 );
+        GPIOPinWrite(GPIO_PORTB_BASE, E, 0x02);
+        SysTimerDelay(10);
+        GPIOPinWrite(GPIO_PORTB_BASE, E, 0x00);
 
-        GPIOPinWrite(LCDPORT, D4 | D5 | D6 | D7,  0x20 );
-        GPIOPinWrite(LCDPORT, E, 0x02);
-        SysCtlDelay(10);
-        GPIOPinWrite(LCDPORT, E, 0x00);
-
-        SysCtlDelay(50000);
+        SysTimerDelay(25000);
 
 
         LCD_Command(0x0F); //Turn on Lcd
@@ -91,21 +93,21 @@ void LCD_init() {
 
 void LCD_Show(unsigned char d) {
 
-        GPIOPinWrite(LCDPORT, D4 | D5 | D6 | D7, (d & 0xf0) );
-        GPIOPinWrite(LCDPORT, RS, 0x01);
-        GPIOPinWrite(LCDPORT, E, 0x02);
+        GPIOPinWrite(GPIO_PORTB_BASE, D4 | D5 | D6 | D7, (d & 0xf0) );
+        GPIOPinWrite(GPIO_PORTB_BASE, RS, 0x01);
+        GPIOPinWrite(GPIO_PORTB_BASE, E, 0x02);
 
-        SysCtlDelay(10);
-        GPIOPinWrite(LCDPORT, E, 0x00);
-        SysCtlDelay(50000);
+        SysTimerDelay(10);
+        GPIOPinWrite(GPIO_PORTB_BASE, E, 0x00);
+        SysTimerDelay(25000);
 
-        GPIOPinWrite(LCDPORT, D4 | D5 | D6 | D7, (d & 0x0f) << 4 );
-        GPIOPinWrite(LCDPORT, RS, 0x01);
-        GPIOPinWrite(LCDPORT, E, 0x02);
+        GPIOPinWrite(GPIO_PORTB_BASE, D4 | D5 | D6 | D7, (d & 0x0f) << 4 );
+        GPIOPinWrite(GPIO_PORTB_BASE, RS, 0x01);
+        GPIOPinWrite(GPIO_PORTB_BASE, E, 0x02);
 
-        SysCtlDelay(10);
-        GPIOPinWrite(LCDPORT, E, 0x00);
-        SysCtlDelay(50000);
+        SysTimerDelay(10);
+        GPIOPinWrite(GPIO_PORTB_BASE, E, 0x00);
+        SysTimerDelay(25000);
 
 }
 

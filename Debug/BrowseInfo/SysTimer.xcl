@@ -1,13 +1,13 @@
-"D:\UNI\Semester 7\Embedded\Team1 CSE211 Project\Lcd.c"
+"D:\UNI\Semester 7\Embedded\Team1 CSE211 Project\SysTimer.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -funsigned-char
 -MD
 -MF
-D:\UNI\Semester 7\Embedded\Team1 CSE211 Project\Debug\BrowseInfo\Lcd.pbi.dep
+D:\UNI\Semester 7\Embedded\Team1 CSE211 Project\Debug\BrowseInfo\SysTimer.pbi.dep
 -o
-D:\UNI\Semester 7\Embedded\Team1 CSE211 Project\Debug\BrowseInfo\Lcd.pbi
+D:\UNI\Semester 7\Embedded\Team1 CSE211 Project\Debug\BrowseInfo\SysTimer.pbi
 -I
 D:\UNI\Semester 7\Embedded\Team1 CSE211 Project
 -I

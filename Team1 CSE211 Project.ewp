@@ -2150,12 +2150,24 @@
         <name>$PROJ_DIR$\Keypad.h</name>
     </file>
     <file>
-        <name>$PROJ_DIR$\lcd.c</name>
+        <name>$PROJ_DIR$\Lcd.c</name>
     </file>
     <file>
-        <name>$PROJ_DIR$\lcd.h</name>
+        <name>$PROJ_DIR$\Lcd.h</name>
     </file>
     <file>
         <name>$PROJ_DIR$\main.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\SysTimer.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\SysTimer.h</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\Timers.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\Timers.h</name>
     </file>
 </project>

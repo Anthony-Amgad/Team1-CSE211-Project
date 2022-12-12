@@ -46,6 +46,6 @@ uint8_t KeyPad_Read(){
     }
   }
   
-  return 0;
+  return '\0';
   
 }
