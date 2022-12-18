@@ -11,12 +11,16 @@ D:\UNI\Semester\ 7\Embedded\Team1\ CSE211\ Project\Debug\BrowseInfo\main.pbi: \
   D:\Programs\IAR\ Systems\Embedded\ Workbench\ 9.1\arm\inc\c\DLib_Product_stdlib.h \
   D:\Programs\IAR\ Systems\Embedded\ Workbench\ 9.1\arm\inc\c\stdbool.h \
   D:\Programs\IAR\ Systems\Embedded\ Workbench\ 9.1\arm\inc\c\stdint.h \
+  D:\Programs\IAR\ Systems\Embedded\ Workbench\ 9.1\arm\inc\c\string.h \
+  D:\Programs\IAR\ Systems\Embedded\ Workbench\ 9.1\arm\inc\c\DLib_Product_string.h \
   D:\UNI\Semester\ 7\Embedded\Team1\ CSE211\ Project\Lcd.h \
   D:\UNI\Semester\ 7\Embedded\Team1\ CSE211\ Project\Keypad.h \
   D:\UNI\Semester\ 7\Embedded\Team1\ CSE211\ Project\Timers.h \
+  D:\UNI\Semester\ 7\Embedded\Team1\ CSE211\ Project\SysTimer.h \
   D:\UNI\Semester\ 7\Embedded\tivaware_c_series_2_1_4_178__win\tivaware_c_series_2_1_4_178\driverlib\gpio.h \
   D:\UNI\Semester\ 7\Embedded\tivaware_c_series_2_1_4_178__win\tivaware_c_series_2_1_4_178\driverlib\sysctl.h \
   D:\UNI\Semester\ 7\Embedded\tivaware_c_series_2_1_4_178__win\tivaware_c_series_2_1_4_178\driverlib\interrupt.h \
+  D:\UNI\Semester\ 7\Embedded\tivaware_c_series_2_1_4_178__win\tivaware_c_series_2_1_4_178\driverlib\timer.h \
   D:\UNI\Semester\ 7\Embedded\tivaware_c_series_2_1_4_178__win\tivaware_c_series_2_1_4_178\inc\hw_gpio.h \
   D:\UNI\Semester\ 7\Embedded\tivaware_c_series_2_1_4_178__win\tivaware_c_series_2_1_4_178\inc\hw_memmap.h \
   D:\UNI\Semester\ 7\Embedded\tivaware_c_series_2_1_4_178__win\tivaware_c_series_2_1_4_178\inc\hw_ints.h

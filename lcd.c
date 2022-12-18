@@ -51,7 +51,7 @@ void LCD_init() {
         SysTimerDelayinit();
         SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOB);
         while(!SysCtlPeripheralReady(SYSCTL_PERIPH_GPIOB));
-        GPIOPinTypeGPIOOutput(GPIO_PORTB_BASE, 0xFF);
+        GPIOPinTypeGPIOOutput(GPIO_PORTB_BASE, RS | E | D4 | D5 | D6 | D7);
 
         SysTimerDelay(25000);
 

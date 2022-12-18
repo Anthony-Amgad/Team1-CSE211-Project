@@ -1,37 +1,28 @@
 # ninja log v5
-2	556	6925820303941482	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
+1	515	6928106315143651	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
 2	454	6925537580870981	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/lcd.o	c0c68a77ff6a870b
-1	430	6925532248027222	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/SysTimer.o	99f4a284f0de07e6
-561	729	6925820305669866	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	12c3e95ad8b530da
+2	814	6927346604688088	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/SysTimer.o	99f4a284f0de07e6
+424	566	6928119911865278	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	12c3e95ad8b530da
 1	779	6925521284960881	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/Keypad.o	25202411ab95d41e
-362	778	6925529096915210	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/Timers.o	20c4930d87930be6
-2	844	6925712940231864	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/Lcd.o	5017cfca285eba2b
-2	450	6925822709661593	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
-453	602	6925822711171172	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	12c3e95ad8b530da
-2	541	6925824893760687	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
-545	705	6925824895396030	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	12c3e95ad8b530da
-1	477	6925827020320690	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
-481	634	6925827021881631	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	12c3e95ad8b530da
-1	482	6925827673597079	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
-486	633	6925827675102679	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	12c3e95ad8b530da
-1	527	6925828968216495	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
-530	678	6925828969734686	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	12c3e95ad8b530da
-1	488	6925830042803176	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
-492	644	6925830044356859	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	12c3e95ad8b530da
-2	526	6925832122668043	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
-531	682	6925832124223015	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	12c3e95ad8b530da
-2	476	6925833447411981	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
-480	637	6925833449011399	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	12c3e95ad8b530da
-2	459	6925834669443250	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
-463	613	6925834670954975	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	12c3e95ad8b530da
-1	559	6925836372480737	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
-563	724	6925836374126183	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	12c3e95ad8b530da
-2	459	6925838906353459	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
-463	611	6925838907869025	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	12c3e95ad8b530da
-1	536	6925841891058248	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
-541	696	6925841892652952	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	12c3e95ad8b530da
-1	546	6925846926706153	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
-551	709	6925846928335410	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	12c3e95ad8b530da
-2	597	6925850050373232	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
-3	479	6925850304626299	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
-484	652	6925850306335217	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	12c3e95ad8b530da
+359	772	6928024458005514	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/Timers.o	20c4930d87930be6
+1	420	6928119910418018	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/Lcd.o	5017cfca285eba2b
+1	485	6928121050825964	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/Lcd.o	5017cfca285eba2b
+488	629	6928121052259880	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	12c3e95ad8b530da
+13	867	6930736627879700	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
+871	1095	6930736630157005	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	12c3e95ad8b530da
+2	677	6930737819701100	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
+683	861	6930737821540178	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	12c3e95ad8b530da
+1	678	6930740599789067	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
+683	880	6930740601867979	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	12c3e95ad8b530da
+2	685	6930743677892294	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
+690	863	6930743679694363	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	12c3e95ad8b530da
+2	594	6930744943750996	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
+602	770	6930744945513812	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	12c3e95ad8b530da
+2	597	6930746302379915	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
+602	776	6930746304178980	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	12c3e95ad8b530da
+1	675	6930748888897367	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
+679	845	6930748890615065	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	12c3e95ad8b530da
+2	676	6930751265221994	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
+682	852	6930751267021178	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	12c3e95ad8b530da
+2	1034	6930752949657506	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Obj/main.o	f06de0d56056fe25
+1042	1249	6930752951854839	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/Exe/Team1 CSE211 Project.out	12c3e95ad8b530da

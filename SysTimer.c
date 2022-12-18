@@ -15,6 +15,7 @@ void SysTimHandler(void){
 }
 
 void SysTimerDelayinit(){
+  SysTickIntEnable();
   SysTickIntRegister(SysTimHandler);
 }
 
