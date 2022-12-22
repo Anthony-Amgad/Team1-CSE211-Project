@@ -1,111 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <fileVersion>5</fileVersion>
-    <fileChecksum>3230318829</fileChecksum>
+    <fileChecksum>1028979145</fileChecksum>
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\Debug\Exe\Team1 CSE211 Project.out</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
-            <file>$PROJ_DIR$\SysTimer.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$PROJ_DIR$\SysTimer.c</file>
-            <file>$PROJ_DIR$\Timers.c</file>
+            <file>$PROJ_DIR$\..\tivaware_c_series_2_1_4_178__win\tivaware_c_series_2_1_4_178\inc\hw_ints.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
             <file>$PROJ_DIR$\..\tivaware_c_series_2_1_4_178__win\tivaware_c_series_2_1_4_178\driverlib\sysctl.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\Debug\List\Team1 CSE211 Project.map</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\..\tivaware_c_series_2_1_4_178__win\tivaware_c_series_2_1_4_178\driverlib\systick.h</file>
+            <file>$PROJ_DIR$\..\tivaware_c_series_2_1_4_178__win\tivaware_c_series_2_1_4_178\driverlib\timer.h</file>
+            <file>$PROJ_DIR$\..\tivaware_c_series_2_1_4_178__win\tivaware_c_series_2_1_4_178\inc\hw_types.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\SysTimer.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C123GH6.icf</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\Team1 CSE211 Project.out</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\..\tivaware_c_series_2_1_4_178__win\tivaware_c_series_2_1_4_178\inc\hw_memmap.h</file>
+            <file>$PROJ_DIR$\..\tivaware_c_series_2_1_4_178__win\tivaware_c_series_2_1_4_178\driverlib\interrupt.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Timers.o</file>
             <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
-            <file>$PROJ_DIR$\Timers.h</file>
+            <file>$PROJ_DIR$\..\tivaware_c_series_2_1_4_178__win\tivaware_c_series_2_1_4_178\inc\hw_gpio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
             <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\..\tivaware_c_series_2_1_4_178__win\tivaware_c_series_2_1_4_178\driverlib\gpio.h</file>
+            <file>$PROJ_DIR$\Timers.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\Timers.h</file>
+            <file>$PROJ_DIR$\SysTimer.c</file>
+            <file>$PROJ_DIR$\SysTimer.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Lcd.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Keypad.o</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\..\tivaware_c_series_2_1_4_178__win\tivaware_c_series_2_1_4_178\driverlib\ewarm\Exe\driverlib.a</file>
             <file>$PROJ_DIR$\Keypad.c</file>
-            <file>$PROJ_DIR$\Lcd.c</file>
             <file>$PROJ_DIR$\Keypad.h</file>
+            <file>$PROJ_DIR$\Lcd.c</file>
             <file>$PROJ_DIR$\Lcd.h</file>
             <file>$PROJ_DIR$\main.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
-            <file>$PROJ_DIR$\Debug\Obj\Keypad.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
-            <file>$PROJ_DIR$\..\tivaware_c_series_2_1_4_178__win\tivaware_c_series_2_1_4_178\driverlib\ewarm\Exe\driverlib.a</file>
-            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
-            <file>$PROJ_DIR$\Debug\Obj\SysTimer.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
-            <file>$PROJ_DIR$\..\tivaware_c_series_2_1_4_178__win\tivaware_c_series_2_1_4_178\inc\hw_memmap.h</file>
-            <file>$PROJ_DIR$\..\tivaware_c_series_2_1_4_178__win\tivaware_c_series_2_1_4_178\driverlib\systick.h</file>
-            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
-            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-            <file>$PROJ_DIR$\..\tivaware_c_series_2_1_4_178__win\tivaware_c_series_2_1_4_178\inc\hw_types.h</file>
-            <file>$PROJ_DIR$\..\tivaware_c_series_2_1_4_178__win\tivaware_c_series_2_1_4_178\driverlib\timer.h</file>
-            <file>$PROJ_DIR$\..\tivaware_c_series_2_1_4_178__win\tivaware_c_series_2_1_4_178\driverlib\interrupt.h</file>
-            <file>$PROJ_DIR$\Debug\List\Team1 CSE211 Project.map</file>
-            <file>$PROJ_DIR$\Debug\Obj\Timers.o</file>
-            <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C123GH6.icf</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
-            <file>$PROJ_DIR$\..\tivaware_c_series_2_1_4_178__win\tivaware_c_series_2_1_4_178\inc\hw_gpio.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
-            <file>$PROJ_DIR$\..\tivaware_c_series_2_1_4_178__win\tivaware_c_series_2_1_4_178\driverlib\gpio.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\Lcd.o</file>
-            <file>$PROJ_DIR$\..\tivaware_c_series_2_1_4_178__win\tivaware_c_series_2_1_4_178\inc\hw_ints.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Buttons.o</file>
+            <file>$PROJ_DIR$\Buttons.h</file>
+            <file>$PROJ_DIR$\Buttons.c</file>
         </outputs>
         <file>
             <name>$PROJ_DIR$\Debug\Exe\Team1 CSE211 Project.out</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 34</file>
+                    <file> 4</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 36 20 41 18 24 35 22 19 23 29 28</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\SysTimer.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 24</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 25 39 12 4 9 8 30 27 7 26 33 42</file>
+                    <file> 13 44 35 34 11 10 20 38 16 6 24 36</file>
                 </tool>
             </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\Timers.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 35</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 25 39 12 4 9 8 30 32 7 26 33 42</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>[ROOT_NODE]</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 0 34</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Keypad.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
@@ -115,7 +79,37 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 25 39 12 4 9 8 30 40 7 26 31 38</file>
+                    <file> 1 2 25 5 17 29 28 8 3 18 19 0</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SysTimer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 10</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 1 2 25 5 17 29 28 7 3 18 19 0</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Keypad.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 35</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 1 2 25 5 17 29 28 26 3 18 9 22</file>
                 </tool>
             </inputs>
         </file>
@@ -124,13 +118,13 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 41</file>
+                    <file> 34</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 25 39 12 4 9 8 30 26 7 40 21 2 1 3</file>
+                    <file> 1 2 25 5 17 29 28 18 3 26 23 30 12 33</file>
                 </tool>
             </inputs>
         </file>
@@ -139,23 +133,47 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 18</file>
+                    <file> 11</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 37 12 4 9 8 30 2 10 43 25 39 21 1 16 15 11 3 40 7 33 32 38 26 42</file>
+                    <file> 37 25 5 17 29 28 30 21 14 1 2 23 12 42 40 31 33 45 26 3 19 8 22 18 0</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 15 4</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Buttons.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 1 2 25 5 17 29 28 26 19 3 18 22 0</file>
                 </tool>
             </inputs>
         </file>
         <forcedrebuild>
-            <name>[MULTI_TOOL]</name>
-            <tool>ILINK</tool>
-        </forcedrebuild>
-        <forcedrebuild>
             <name>$PROJ_DIR$\main.c</name>
             <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
         </forcedrebuild>
         <forcedrebuild>
             <name>[REBUILD_ALL]</name>

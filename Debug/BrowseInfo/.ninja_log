@@ -1,94 +1,29 @@
 # ninja log v5
 9	503	6924767370000000	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/main.xcl	dec51433aee33cb7
-1	73	6928024486134208	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/main.pbi	e8c3831394de1902
-102	129	6928024486712667	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbd	b7d3770b83fce735
-132	575	6928024490901808	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbw	871b2ec7513603a8
+0	64	6931794744008554	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/main.pbi	e8c3831394de1902
+95	125	6931794744632207	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbd	b7d3770b83fce735
 20	512	6924767370000000	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Keypad.xcl	2c4bd99a192dd489
-1	520	6924767370000000	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/lcd.xcl	8be315546643fb47
+129	734	6931794750493553	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbw	871b2ec7513603a8
 1	51	6925521090734285	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Keypad.pbi	be3f07263d45d11
+1	520	6924767370000000	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/lcd.xcl	8be315546643fb47
 7	70	6925514470603807	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/lcd.pbi	7b628b1c55188462
 7	458	6925470010000000	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Timers.xcl	9fa107ff3d4fbd14
 2	93	6928023973464967	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Timers.pbi	f4e7e64e7fd5090b
 1	475	6925514530000000	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Lcd.xcl	63bee9e7ffc5d7cf
-1	46	6925537451459827	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Lcd.pbi	73a9346d8a140c54
+0	50	6928121053345890	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Lcd.pbi	73a9346d8a140c54
 96	112	6928023973664404	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project_part2.pbi	65f2488f96a3fe30
-48	67	6925537451675483	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project_part0.pbi	f8ca3e504d7231d
+52	71	6928121053565300	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project_part0.pbi	f8ca3e504d7231d
 9	472	6925527910000000	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/SysTimer.xcl	4163c01ce5149409
 3	89	6927346462710930	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/SysTimer.pbi	50ffbaad2b815c2e
-75	99	6928024486403491	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project_part1.pbi	f026f26d15d3aaeb
-1	55	6928105453533348	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/main.pbi	e8c3831394de1902
-57	79	6928105453780702	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project_part1.pbi	f026f26d15d3aaeb
-81	104	6928105454030020	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbd	b7d3770b83fce735
-107	510	6928105457874151	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbw	871b2ec7513603a8
-1	52	6928106267634535	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/main.pbi	e8c3831394de1902
-54	76	6928106267867927	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project_part1.pbi	f026f26d15d3aaeb
-78	103	6928106268137218	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbd	b7d3770b83fce735
-105	495	6928106271885853	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbw	871b2ec7513603a8
-1	43	6928117385707366	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Lcd.pbi	73a9346d8a140c54
-45	85	6928117386137304	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project_part0.pbi	f8ca3e504d7231d
-88	113	6928117386416165	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbd	b7d3770b83fce735
-116	511	6928117390214625	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbw	871b2ec7513603a8
-0	46	6928118608238750	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Lcd.pbi	73a9346d8a140c54
-48	67	6928118608448184	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project_part0.pbi	f8ca3e504d7231d
-69	93	6928118608707490	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbd	b7d3770b83fce735
-96	496	6928118612556310	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbw	871b2ec7513603a8
-1	48	6928119472236790	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Lcd.pbi	73a9346d8a140c54
-49	68	6928119472445896	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project_part0.pbi	f8ca3e504d7231d
-71	96	6928119472725150	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbd	b7d3770b83fce735
-99	506	6928119476626118	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbw	871b2ec7513603a8
-0	40	6928119780141631	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Lcd.pbi	73a9346d8a140c54
-42	59	6928119780338317	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project_part0.pbi	f8ca3e504d7231d
-61	85	6928119780607596	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbd	b7d3770b83fce735
-88	496	6928119784532381	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbw	871b2ec7513603a8
-0	50	6928121053345890	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Lcd.pbi	73a9346d8a140c54
-52	71	6928121053565300	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project_part0.pbi	f8ca3e504d7231d
-73	98	6928121053844877	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbd	b7d3770b83fce735
-100	490	6928121057559872	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbw	871b2ec7513603a8
-5	133	6930734035511623	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/main.pbi	e8c3831394de1902
-137	187	6930734036070870	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project_part1.pbi	f026f26d15d3aaeb
-191	240	6930734036590177	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbd	b7d3770b83fce735
-244	1025	6930734044101686	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbw	871b2ec7513603a8
-2	109	6930736632234239	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/main.pbi	e8c3831394de1902
-112	152	6930736632674103	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project_part1.pbi	f026f26d15d3aaeb
-158	211	6930736633272880	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbd	b7d3770b83fce735
-217	888	6930736639725566	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbw	871b2ec7513603a8
-1	74	6930737755394017	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/main.pbi	e8c3831394de1902
-77	109	6930737755753522	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project_part1.pbi	f026f26d15d3aaeb
-113	155	6930737756192897	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbd	b7d3770b83fce735
-160	742	6930737761785425	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbw	871b2ec7513603a8
-1	97	6930740607958499	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/main.pbi	e8c3831394de1902
-102	138	6930740608397746	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project_part1.pbi	f026f26d15d3aaeb
-144	184	6930740608837161	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbd	b7d3770b83fce735
-188	742	6930740614101842	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbw	871b2ec7513603a8
-1	92	6930743653535207	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/main.pbi	e8c3831394de1902
-95	127	6930743653906231	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project_part1.pbi	f026f26d15d3aaeb
-131	168	6930743654294233	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbd	b7d3770b83fce735
-173	777	6930743660046566	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbw	871b2ec7513603a8
-1	87	6930744928588407	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/main.pbi	e8c3831394de1902
-92	135	6930744929067633	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project_part1.pbi	f026f26d15d3aaeb
-140	189	6930744929626819	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbd	b7d3770b83fce735
-194	802	6930744935498941	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbw	871b2ec7513603a8
-2	100	6930746306216597	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/main.pbi	e8c3831394de1902
-102	162	6930746306856415	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project_part1.pbi	f026f26d15d3aaeb
-167	216	6930746307375802	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbd	b7d3770b83fce735
-222	846	6930746313389501	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbw	871b2ec7513603a8
-1	70	6930748390740820	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/main.pbi	e8c3831394de1902
-73	106	6930748391100331	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project_part1.pbi	f026f26d15d3aaeb
-111	152	6930748391579690	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbd	b7d3770b83fce735
-159	762	6930748397332592	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbw	871b2ec7513603a8
-1	100	6930748702843454	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/main.pbi	e8c3831394de1902
-103	149	6930748703322441	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project_part1.pbi	f026f26d15d3aaeb
-153	204	6930748703881682	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbd	b7d3770b83fce735
-211	847	6930748710033755	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbw	871b2ec7513603a8
-1	73	6930751193285325	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/main.pbi	e8c3831394de1902
-78	107	6930751193622931	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project_part1.pbi	f026f26d15d3aaeb
-111	147	6930751194022399	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbd	b7d3770b83fce735
-151	766	6930751199854902	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbw	871b2ec7513603a8
-1	110	6930752923768516	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/main.pbi	e8c3831394de1902
-114	156	6930752924207923	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project_part1.pbi	f026f26d15d3aaeb
-161	212	6930752924767464	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbd	b7d3770b83fce735
-217	1083	6930752933155967	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbw	871b2ec7513603a8
-1	95	6930755315652100	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/main.pbi	e8c3831394de1902
-100	143	6930755316131536	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project_part1.pbi	f026f26d15d3aaeb
-150	192	6930755316610789	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbd	b7d3770b83fce735
-199	806	6930755322442718	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbw	871b2ec7513603a8
+67	92	6931794744293105	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project_part1.pbi	f026f26d15d3aaeb
+45	76	6931795256807311	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project_part1.pbi	6ce41c0ffe0cb9d7
+53	80	6931795256836980	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project_part2.pbi	9f47890d47db01f3
+1	511	6931795260000000	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Buttons.xcl	ecaa9bb85e2b373c
+515	553	6931795261574712	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Buttons.pbi	c878c1367e63f534
+555	576	6931795261814074	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project_part0.pbi	9d2bfd46d250c9d7
+579	609	6931795262133215	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbd	b7d3770b83fce735
+612	1054	6931795266350096	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbw	871b2ec7513603a8
+0	45	6931796075606069	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Buttons.pbi	c878c1367e63f534
+48	67	6931796075854988	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project_part0.pbi	9d2bfd46d250c9d7
+70	98	6931796076154187	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbd	b7d3770b83fce735
+101	536	6931796080300321	D:/UNI/Semester 7/Embedded/Team1 CSE211 Project/Debug/BrowseInfo/Team1 CSE211 Project.pbw	871b2ec7513603a8

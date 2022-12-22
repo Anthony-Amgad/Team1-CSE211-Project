@@ -7,6 +7,7 @@
 #include "Keypad.h"
 #include "Timers.h"
 #include "SysTimer.h"
+#include "Buttons.h"
 #include "driverlib/gpio.h"
 #include "driverlib/sysctl.h"
 #include "driverlib/interrupt.h"
@@ -17,7 +18,7 @@
 
 uint16_t state = 1;
 
-uint16_t waits = 0;
+uint16_t waits = 0; // for handling lcd issue not to write two things at the same time
 
 
 //Calculator Variables
@@ -42,9 +43,9 @@ uint64_t timremsec = 0;
 
 
 
-void Timer1IntHandler(void){
+void Timer1IntHandler(void){ // Stopwatch
     seconds++;
-    if(state == 3 && waits){
+    if(state == 3 && waits){ 
     uint16_t stod = seconds%60;
     uint16_t mtod = seconds/60;
     int32_t length = snprintf( NULL, 0, "%hu", stod);
@@ -63,7 +64,7 @@ void Timer1IntHandler(void){
  
 }
 
-void Timer2IntHandler(void){    
+void Timer2IntHandler(void){  // Timer  
     if(timremsec > 0){
     timremsec--;
     
@@ -123,8 +124,8 @@ void btnHandlers(void){
       state = 1;      
       break;
     }
-    while((GPIOPinRead(GPIO_PORTA_BASE,GPIO_PIN_2) == GPIO_PIN_2));
-    SysTimerDelay(50*16000);
+    while((GPIOPinRead(GPIO_PORTA_BASE,GPIO_PIN_2) == GPIO_PIN_2)); // for bouncing
+    SysTimerDelay(50*16000); // for bouncing
     break;
   
   case(GPIO_INT_PIN_3): //start stopwatch
@@ -154,29 +155,19 @@ void btnHandlers(void){
 }
 
 
-void btns_init(){
-  SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOA);
-  while(!SysCtlPeripheralReady(SYSCTL_PERIPH_GPIOA));
-  GPIOPinTypeGPIOInput(GPIO_PORTA_BASE, GPIO_PIN_2|GPIO_PIN_3|GPIO_PIN_4|GPIO_PIN_5);
-  GPIOPadConfigSet(GPIO_PORTA_BASE,GPIO_PIN_2|GPIO_PIN_3|GPIO_PIN_4|GPIO_PIN_5,GPIO_STRENGTH_2MA,GPIO_PIN_TYPE_STD_WPD);
-  GPIOIntDisable(GPIO_PORTA_BASE,GPIO_INT_PIN_2|GPIO_INT_PIN_3|GPIO_INT_PIN_4|GPIO_INT_PIN_5);
-  IntMasterEnable();
-  IntEnable(INT_GPIOA);
-  GPIOIntRegister(GPIO_PORTA_BASE,btnHandlers);
-  GPIOIntTypeSet(GPIO_PORTA_BASE,GPIO_PIN_2|GPIO_PIN_3|GPIO_PIN_4|GPIO_PIN_5,GPIO_RISING_EDGE );
-  GPIOIntEnable(GPIO_PORTA_BASE,GPIO_INT_PIN_2|GPIO_INT_PIN_3|GPIO_INT_PIN_4|GPIO_INT_PIN_5);
-
-}
-
-
 
 int main()
 {
+
+  //Inititions
   uint16_t prevstate = 0;
   LCD_init();
   KeyPad_Init();
   TimerDelayinit();
   btns_init();
+  GPIOIntRegister(GPIO_PORTA_BASE,btnHandlers);
+  GPIOIntEnable(GPIO_PORTA_BASE,GPIO_INT_PIN_2|GPIO_INT_PIN_3|GPIO_INT_PIN_4|GPIO_INT_PIN_5);
+
   
   
   SysCtlPeripheralEnable(SYSCTL_PERIPH_TIMER1);
@@ -210,7 +201,7 @@ int main()
   
   GPIOPinTypeGPIOOutput(GPIO_PORTF_BASE, GPIO_PIN_2|GPIO_PIN_3);
   
-  
+  // Intro Screen
   
   uint8_t ch = '\0';
   
@@ -224,7 +215,7 @@ int main()
   while (1) {
     
     switch(state){
-    case 1:
+    case 1: // Calculator
       if(prevstate != 1){
         waits = 0;
         LCD_Print("#  Calculator  #","#     Mode     #");
@@ -235,7 +226,7 @@ int main()
       }
       
       
-      while(state == 1){
+      while(state == 1){  // checking KeyPad
         ch = KeyPad_Read(); 
         
         if ((ch != '\0') && sw == 0){
@@ -256,7 +247,7 @@ int main()
               memset(calcin, 0, sizeof(calcin));
               opermode = 2;
               LCD_Show('-');
-            }else if(calciter == 0){
+            }else if(calciter == 0){ // for operand sign
               if(calciter < 14 - oper1len){
               calcin[calciter] = '-';
               calciter++;
@@ -292,7 +283,7 @@ int main()
             }
           }else if(ch == 'D'){   // =
             if(calciter != 0){
-              if(opermode == 0){
+              if(opermode == 0){  // only one operand
                 LCD_PrintLn(1, calcin);
               }else if(opermode == 1){  // +
                 int64_t result = oper1 + atoll(calcin);
@@ -325,7 +316,7 @@ int main()
                 snprintf(str, length + 1, "%lld", result );
                 LCD_PrintLn(1,str);
                 free(str);
-              }else if(opermode == 5){
+              }else if(opermode == 5){ // if result is displayed already
                 LCD_Clear();
                 opermode = 0;
                 calciter = 0;
@@ -340,12 +331,11 @@ int main()
               memset(calcin, 0, sizeof(calcin));  
               opermode = 5;
             }
-          }else{
+          }else{ //entering an operand normally
             if((calciter < 14 - oper1len)  && (ch != '#')){
               calcin[calciter] = ch;
               calciter++;
               LCD_Show(ch);
-              //printf("%s\n",calcin);
             }else if(ch != '#'){
               LCD_Print("#   OVERFLOW   #","#      !!      #");
               TimerDelay(2000);
@@ -362,11 +352,11 @@ int main()
         }
       }
 
-      while(sw && KeyPad_Read() != '\0');   
+      while(sw && KeyPad_Read() != '\0');    //for bouncing
       sw = 0;      
       break;
       
-    case 2:
+    case 2: // Timer Mode
       if(prevstate != 2){
         waits = 0;
         LCD_Print("#     Timer    #","#     Mode     #");
@@ -380,58 +370,42 @@ int main()
         prevstate = 2;
         waits = 1;
       }
-      while(state == 2){
+      while(state == 2){ //checking keypad
         ch = KeyPad_Read(); 
         
         if ((ch != '\0') && sw == 0){
           if(timmode == 0){
-            if((timiter < 2)  && (ch != '#') && (ch != '*') && (ch != 'A') && (ch != 'B') && (ch != 'C') && (ch != 'D')){
+            if((timiter < 2)  && (ch != '#') && (ch != '*') && (ch != 'A') && (ch != 'B') && (ch != 'C') && (ch != 'D')){ // first 2 digits (minutes)
               minin[timiter] = ch;
-              //printf("%s:%s",minin,secin);
               timiter++;
               LCD_Show(ch);
               if(timiter == 2){
                 LCD_Show(':');
               }
-              //printf("%s\n",calcin);
-            }else if((timiter < 4) && (ch != '#') && (ch != '*') && (ch != 'A') && (ch != 'B') && (ch != 'C') && (ch != 'D')){
+            }else if((timiter < 4) && (ch != '#') && (ch != '*') && (ch != 'A') && (ch != 'B') && (ch != 'C') && (ch != 'D')){ // second 2 digits (seconds)
               secin[timiter-2] = ch;
-              //printf("%s:%s",minin,secin);
               timiter++;
               LCD_Show(ch);
             }
-            else if((timiter >= 4)  && (ch != '#') && (ch != '*') && (ch != 'A') && (ch != 'B') && (ch != 'C') && (ch != 'D')){
+            else if((timiter >= 4)  && (ch != '#') && (ch != '*') && (ch != 'A') && (ch != 'B') && (ch != 'C') && (ch != 'D')){ // cycling
               timiter = 0;
               minin[0] = '0';
               minin[1] = '0';
               secin[0] = '0';
               secin[1] = '0';
               minin[timiter] = ch;
-              //printf("%s:%s",minin,secin);
               LCD_PrintLn(0,"00:00");
               LCD_Cursor(0,0);
               LCD_Show(ch);
               timiter++;
             }
-            else if(ch == 'D'){
-              //printf("%s:%s",minin,secin);
+            else if(ch == 'D'){ // start
               timremsec = atoll(secin);
               timremsec += (60*(atoll(minin)/100));
               timmode = 1;
               TimerEnable(TIMER2_BASE,TIMER_A);
             }
-          }else if(timmode == 1 && ch == 'D'){
-            TimerDisable(TIMER2_BASE,TIMER_A);
-            timmode = 0;
-            minin[0] = '0';
-            minin[1] = '0';
-            secin[0] = '0';
-            secin[1] = '0';
-            timiter = 0;
-            timremsec = 0;
-            LCD_Print("00:00           ","                ");
-            LCD_Cursor(0,0);
-          }else if(timmode == 2 && ch =='D'){
+          }else if((timmode == 1 || timmode == 2) && ch == 'D'){ // reseting
             TimerDisable(TIMER2_BASE,TIMER_A);
             GPIOPinWrite(GPIO_PORTF_BASE,GPIO_PIN_3,0x0);
             timmode = 0;
@@ -454,7 +428,7 @@ int main()
       sw = 0;      
       break;
       
-    case 3:
+    case 3: // Stopwatch
       if(prevstate != 3){
         waits = 0;
         LCD_Print("#  Stopwatch   #","#     Mode     #");

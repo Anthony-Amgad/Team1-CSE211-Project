@@ -24,6 +24,11 @@ rule PDBLINK
 
 
 #Build steps
+build D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Buttons.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Buttons.c" -xcl_file "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Buttons.xcl" -macro_file "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Buttons.tmp" -icc_path "D$:\Programs\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
+  flags = "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Buttons.c" -D ewarm -D PART_TM4C123GH6PM -D TARGET_IS_TM4C123_RB1 -o "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "D$:\Programs\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -I "D$:\UNI\Semester$ 7\Embedded\tivaware_c_series_2_1_4_178__win\tivaware_c_series_2_1_4_178\\" -Ol --predef_macros "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Buttons.tmp"
+  rspfile_name = D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Buttons.xcl.rsp
+
 build D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Keypad.xcl : COMPILER_XCL 
   xclcommand = -source_file "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Keypad.c" -xcl_file "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Keypad.xcl" -macro_file "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Keypad.tmp" -icc_path "D$:\Programs\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\bin\iccarm.exe"
   flags = "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Keypad.c" -D ewarm -D PART_TM4C123GH6PM -D TARGET_IS_TM4C123_RB1 -o "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "D$:\Programs\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -I "D$:\UNI\Semester$ 7\Embedded\tivaware_c_series_2_1_4_178__win\tivaware_c_series_2_1_4_178\\" -Ol --predef_macros "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Keypad.tmp"
@@ -49,6 +54,10 @@ build D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Timer
   flags = "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Timers.c" -D ewarm -D PART_TM4C123GH6PM -D TARGET_IS_TM4C123_RB1 -o "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "D$:\Programs\IAR$ Systems\Embedded$ Workbench$ 9.1\arm\inc\c\DLib_Config_Normal.h" -I "D$:\UNI\Semester$ 7\Embedded\tivaware_c_series_2_1_4_178__win\tivaware_c_series_2_1_4_178\\" -Ol --predef_macros "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Timers.tmp"
   rspfile_name = D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Timers.xcl.rsp
 
+build D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Buttons.pbi : INDEXER D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Buttons.xcl |  $
+D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Buttons.c
+  flags = "-out=D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Buttons.pbi" -f "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Buttons.xcl"
+
 build D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Keypad.pbi : INDEXER D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Keypad.xcl |  $
 D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Keypad.c
   flags = "-out=D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Keypad.pbi" -f "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Keypad.xcl"
@@ -72,16 +81,17 @@ D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Timers.c
 build D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Team1$ CSE211$ Project.pbw : MAKEBROWSE D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Team1$ CSE211$ Project.pbd
   flags = "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Team1$ CSE211$ Project.pbd" -output "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Team1$ CSE211$ Project.pbw"
 
-build D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Team1$ CSE211$ Project_part0.pbi : PDBLINK D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Keypad.pbi |  $
-D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Lcd.pbi
-  flags = -M "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Team1$ CSE211$ Project_part0.pbi" "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Keypad.pbi" "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Lcd.pbi"
+build D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Team1$ CSE211$ Project_part0.pbi : PDBLINK D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Buttons.pbi |  $
+D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Keypad.pbi
+  flags = -M "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Team1$ CSE211$ Project_part0.pbi" "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Buttons.pbi" "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Keypad.pbi"
 
-build D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Team1$ CSE211$ Project_part1.pbi : PDBLINK D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\main.pbi |  $
-D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\SysTimer.pbi
-  flags = -M "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Team1$ CSE211$ Project_part1.pbi" "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\main.pbi" "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\SysTimer.pbi"
+build D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Team1$ CSE211$ Project_part1.pbi : PDBLINK D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Lcd.pbi |  $
+D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\main.pbi
+  flags = -M "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Team1$ CSE211$ Project_part1.pbi" "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Lcd.pbi" "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\main.pbi"
 
-build D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Team1$ CSE211$ Project_part2.pbi : PDBLINK D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Timers.pbi
-  flags = -M "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Team1$ CSE211$ Project_part2.pbi" "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Timers.pbi"
+build D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Team1$ CSE211$ Project_part2.pbi : PDBLINK D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\SysTimer.pbi |  $
+D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Timers.pbi
+  flags = -M "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Team1$ CSE211$ Project_part2.pbi" "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\SysTimer.pbi" "D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Timers.pbi"
 
 build D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Team1$ CSE211$ Project.pbd : PDBLINK D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Team1$ CSE211$ Project_part0.pbi |  $
 D$:\UNI\Semester$ 7\Embedded\Team1$ CSE211$ Project\Debug\BrowseInfo\Team1$ CSE211$ Project_part1.pbi $
